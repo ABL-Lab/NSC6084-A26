@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# NEURON compiled mechanisms (nrnivmodl / mknrndll build products)
+x86_64/
+i686cygwin/
+arm64/
+nrnmech.dll
+*.nrnmech.dll
+mod_func.c
+mod_func.cpp
+*.o
+*.cpp
